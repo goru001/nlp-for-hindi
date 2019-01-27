@@ -35,13 +35,13 @@ Download pretrained Language Model from [here](https://www.dropbox.com/sh/l9lm2r
 
 ## Classifier
 
-Download Movie Review classifier from [here](https://www.dropbox.com/sh/zdz6f4uu0rl0sxr/AADg-bA4D8JdYmg0QuECfB8Ra?dl=0)
+Download Movie Review classifier from [here](https://drive.google.com/open?id=1namfgTvH72Hgq3kPD8F43tOgLUEmG2zf)
 
-Download BBC News classifier from [here](https://www.dropbox.com/sh/zdz6f4uu0rl0sxr/AADg-bA4D8JdYmg0QuECfB8Ra?dl=0)
+Download BBC News classifier from [here](https://drive.google.com/open?id=1namfgTvH72Hgq3kPD8F43tOgLUEmG2zf)
 
 ## Tokenizer
 
 Unsupervised training using Google's [sentencepiece](https://github.com/google/sentencepiece)
 
-Download the trained model and vocabulary from [here](https://www.dropbox.com/sh/rbk9i53s33pgcqj/AAAvHTEBksEsWQsIrfbsh0-ba?dl=0)
+Download the trained model and vocabulary from [here](https://drive.google.com/open?id=1TVuqY3Lad_KdY5Aj8ynGYVvoX5qgk2fJ)
 
