@@ -1,0 +1,11 @@
+language-model/models/*
+language-model/tmp/*
+language-model/train/*
+language-model/valid/*
+datasets-preparation/hindi-wikipedia-dataset/*
+classification-movie-review/models/*
+classification-movie-review/tmp/*
+classification-bbc-news/bbc-hindiv01/*
+classification-bbc-news/models/*
+classification-bbc-news/tmp/*
+classification-bbc-news/bbc-hindiv01.tar.gz
