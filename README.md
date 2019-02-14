@@ -25,16 +25,16 @@ Thanks to [nirantk](https://github.com/NirantK/hindi2vec/releases/tag/bbc-hindi-
 * Kappa Score of Movie Review classification model: ~30
 
  
-    The movie review classification data set has 3 classes
-    [Positive, Neutral, Negative], and not 2. I settled with
-    accuracy of 53% (which is better than just random for 3 classes)
-    because the data set had only:
+Note: The movie review classification data set has 3 classes
+[Positive, Neutral, Negative], and not 2. I settled with
+accuracy of 53% (which is better than just random for 3 classes)
+because the data set had only:
 
-    335 Positive Examples
-    270 Neutral Examples
-    293 Negative Examples
+* 335 Positive Examples
+* 270 Neutral Examples
+* 293 Negative Examples
 
-    which I think are too less to give higher accuracy.
+which I think are too less to give higher accuracy.
  
 ##### BBC News Classification Model
 
