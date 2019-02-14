@@ -14,20 +14,38 @@ Thanks to [nirantk](https://github.com/NirantK/hindi2vec/releases/tag/bbc-hindi-
 
 ## Results
 
-Perplexity of Language Model: ~36 (on 20% validation set)
+##### Language Model
 
-Accuracy of Movie Review classification model: ~53
+* Perplexity of Language Model: ~36 (on 20% validation set)
 
-Kappa Score of Movie Review classification model: ~30
+##### Movie Review Classification Model
 
-Accuracy of BBC News classification model: ~79
+* Accuracy of Movie Review classification model: ~53
 
-Kappa Score of BBC News classification model: ~72
+* Kappa Score of Movie Review classification model: ~30
+
+ 
+    The movie review classification data set has 3 classes
+    [Positive, Neutral, Negative], and not 2. I settled with
+    accuracy of 53% (which is better than just random for 3 classes)
+    because the data set had only:
+
+    335 Positive Examples
+    270 Neutral Examples
+    293 Negative Examples
+
+    which I think are too less to give higher accuracy.
+ 
+##### BBC News Classification Model
+
+* Accuracy of BBC News classification model: ~79
+
+* Kappa Score of BBC News classification model: ~72
 
 Note: [nirantk](https://github.com/NirantK/hindi2vec) has done previous SOTA work with Hindi Language Model and achieved perplexity of ~46. I have achieved better perplexity i.e ~35, but these scores aren't directly comparable because he used hindi wikipedia dumps for training whereas I scraped 55,000 articles and cleaned them through scripts in `datasets-preparation`. Though, one big reason I feel the results I have achieved should be better because
  I'm using `sentencepiece` for unsupervized tokenization whereas `nirantk`
  was using `spacy`.
- 
+
  
 ## Pretrained Language Model
 
