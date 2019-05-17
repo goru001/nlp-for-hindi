@@ -9,3 +9,4 @@ classification-bbc-news/bbc-hindiv01/*
 classification-bbc-news/models/*
 classification-bbc-news/tmp/*
 classification-bbc-news/bbc-hindiv01.tar.gz
+language-model/embeddings
