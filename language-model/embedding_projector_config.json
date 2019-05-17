@@ -1,13 +1,13 @@
 {
   "embeddings": [
     {
-      "tensorName": "Hindi Embedding Vectors",
+      "tensorName": "Subset of Hindi Embedding Vectors",
       "tensorShape": [
-        30000,
+        5000,
         400
       ],
-      "tensorPath": "https://www.dropbox.com/s/guwgwqgkl9jsy5z/embeddings.tsv?raw=1",
-      "metadataPath": "https://www.dropbox.com/s/ma1pw80iqemt0sl/embeddings_metadata.tsv?raw=1"
+      "tensorPath": "https://raw.githubusercontent.com/goru001/nlp-for-hindi/master/language-model/embeddings_subset.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/goru001/nlp-for-hindi/master/language-model/embeddings_metadata_subset.tsv"
     }
   ]
 }
