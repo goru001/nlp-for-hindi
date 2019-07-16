@@ -10,3 +10,5 @@ classification-bbc-news/models/*
 classification-bbc-news/tmp/*
 classification-bbc-news/bbc-hindiv01.tar.gz
 language-model/embeddings
+language-model/HindiDataset/
+tokenizer/.ipynb_checkpoints/
