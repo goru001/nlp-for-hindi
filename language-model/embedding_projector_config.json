@@ -6,8 +6,8 @@
         5000,
         400
       ],
-      "tensorPath": "https://raw.githubusercontent.com/goru001/nlp-for-hindi/master/language-model/embeddings_subset.tsv",
-      "metadataPath": "https://raw.githubusercontent.com/goru001/nlp-for-hindi/master/language-model/embeddings_metadata_subset.tsv"
+      "tensorPath": "https://media.githubusercontent.com/media/goru001/nlp-for-hindi/master/language-model/embeddings_subset.tsv",
+      "metadataPath": "https://media.githubusercontent.com/media/goru001/nlp-for-hindi/master/language-model/embeddings_metadata_subset.tsv"
     }
   ]
 }
