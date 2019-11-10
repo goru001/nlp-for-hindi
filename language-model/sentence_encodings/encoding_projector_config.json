@@ -1,13 +1,13 @@
 {
   "embeddings": [
     {
-      "tensorName": "Hindi Sentences Encodings",
+      "tensorName": "Hindi Embedding Vectors",
       "tensorShape": [
-        9,
+        30000,
         400
       ],
-      "tensorPath": "https://raw.githubusercontent.com/goru001/nlp-for-hindi/master/language-model/sentence_encodings/inltk_sentence_encoding_hi.tsv",
-      "metadataPath": "https://raw.githubusercontent.com/goru001/nlp-for-hindi/master/language-model/sentence_encodings/inltk_sentence_encoding_metadata_hi.tsv"
+      "tensorPath": "https://media.githubusercontent.com/media/goru001/nlp-for-hindi/master/language-model/sentence_encodings/inltk_sentence_encoding_hi.tsv",
+      "metadataPath": "https://media.githubusercontent.com/media/goru001/nlp-for-hindi/master/language-model/sentence_encodings/inltk_sentence_encoding_metadata_hi.tsv"
     }
   ]
 }
