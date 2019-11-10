@@ -1,9 +1,9 @@
 {
   "embeddings": [
     {
-      "tensorName": "Hindi Embedding Vectors",
+      "tensorName": "Hindi Sentence Encodings",
       "tensorShape": [
-        30000,
+        9,
         400
       ],
       "tensorPath": "https://media.githubusercontent.com/media/goru001/nlp-for-hindi/master/language-model/sentence_encodings/inltk_sentence_encoding_hi.tsv",
