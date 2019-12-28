@@ -33,7 +33,6 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
   The scores above aren't directly comparable with his score because his train and test set
    were different and [test set isn't available for reproducibility](https://github.com/NirantK/hindi2vec/issues/1)
  
-<br>
 
 #### Classification Metrics
 
@@ -44,7 +43,6 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 | Hindi Movie Reviews Dataset |  61.66  |  42.29  |
 | BBC Hindi Dataset |  79.79  |  73.01  |
 
-<br>
  
 #### Visualizations
  
