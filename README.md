@@ -21,7 +21,7 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 
 ## Results
 
-##### Language Model Perplexity
+#### Language Model Perplexity
 
 | Architecture/Dataset | Hindi Wikipedia Articles - 172k | Hindi Wikipedia Articles - 55k |
 |:--------:|:----:|:----:|
@@ -35,7 +35,7 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
  
 <br>
 
-##### Classification Metrics
+#### Classification Metrics
 
 **ULMFiT**
 
@@ -46,7 +46,7 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 
 <br>
  
-##### Visualizations
+#### Visualizations
  
  **Embedding Space**
 
