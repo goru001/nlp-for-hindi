@@ -8,14 +8,14 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 
 ## Dataset
 
-#### Created as part of the project
+#### Created as part of this project
 1. [Hindi Wikipedia Articles - 172k](https://www.kaggle.com/disisbig/hindi-wikipedia-articles-172k)
 
 2. [Hindi Wikipedia Articles - 55k](https://www.kaggle.com/disisbig/hindi-wikipedia-articles-55k)
 
 3. [Hindi Movie Reviews Dataset](https://www.kaggle.com/disisbig/hindi-movie-reviews-dataset)
 
-#### Open Source
+#### Open Source Datasets
 4. [BBC Hindi News Dataset](https://github.com/NirantK/hindi2vec/releases/tag/bbc-hindi-v0.1)
 
 
@@ -37,7 +37,7 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 
 #### Classification Metrics
 
-**ULMFiT**
+##### ULMFiT
 
 | Dataset | Accuracy | Kappa Score |
 |:--------:|:----:|:----:|
@@ -48,14 +48,14 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
  
 #### Visualizations
  
- **Embedding Space**
+##### Embedding Space
 
 | Architecture | Visualization |
 |:--------:|:----:|
 | ULMFiT | [Embeddings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-hindi/master/language-model/embedding_projector_config_30k.json) |
 | TransformerXL | [Embeddings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-hindi/master/language-model/embedding_projector_config_transformerxl.json)  |
 
-**Sentence Encodings**
+##### Sentence Encodings
 
 | Architecture | Visualization |
 |:--------:|:----:|
