@@ -63,7 +63,9 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 ## Pretrained Models
 
 #### Language Models 
-Download pretrained Language Models of ULMFiT, TransformerXL from [here](https://www.dropbox.com/sh/l9lm2rgsk7kupz6/AAAByHPkIvhHDgNDoq3v8yhoa?dl=0)
+Download pretrained Language Models of ULMFiT, TransformerXL trained on
+ [Hindi Wikipedia Articles - 172k](https://github.com/goru001/nlp-for-hindi#dataset)
+  from [here](https://drive.google.com/open?id=1_8l5HFHHm4cboA-tkGbn3i6sfOWLmGyC)
 
 #### Classifier
 
