@@ -1,0 +1,13 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "Hindi Embedding Vectors - TransformerXL",
+      "tensorShape": [
+        30000,
+        410
+      ],
+      "tensorPath": "https://media.githubusercontent.com/media/goru001/nlp-for-hindi/master/language-model/transformer3_embeddings.tsv",
+      "metadataPath": "https://media.githubusercontent.com/media/goru001/nlp-for-hindi/master/language-model/transformer3_embeddings_metadata.tsv"
+    }
+  ]
+}
