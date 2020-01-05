@@ -15,6 +15,11 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 
 3. [Hindi Movie Reviews Dataset](https://www.kaggle.com/disisbig/hindi-movie-reviews-dataset)
 
+4. [Hindi Text Short Summarization Corpus](https://www.kaggle.com/disisbig/hindi-text-short-summarization-corpus)
+
+5. [Hindi Text Short and Large Summarization Corpus](https://www.kaggle.com/disisbig/hindi-text-short-and-large-summarization-corpus)
+
+
 #### Open Source Datasets
 4. [BBC Hindi News Dataset](https://github.com/NirantK/hindi2vec/releases/tag/bbc-hindi-v0.1)
 
