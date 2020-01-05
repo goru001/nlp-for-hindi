@@ -21,7 +21,7 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 
 
 #### Open Source Datasets
-4. [BBC Hindi News Dataset](https://github.com/NirantK/hindi2vec/releases/tag/bbc-hindi-v0.1)
+1. [BBC Hindi News Dataset](https://github.com/NirantK/hindi2vec/releases/tag/bbc-hindi-v0.1)
 
 
 ## Results
