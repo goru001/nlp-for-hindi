@@ -45,8 +45,9 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 
 | Dataset | Accuracy | Kappa Score |
 |:--------:|:----:|:----:|
-| Hindi Movie Reviews Dataset |  61.66  |  42.29  |
+| Hindi Movie Reviews Dataset |  62.22  |  43.13  |
 | BBC Hindi Dataset |  79.79  |  73.01  |
+| Hindi Movie Reviews Dataset (with [augmented data](https://medium.com/r/?url=https%3A%2F%2Fdrive.google.com%2Fopen%3Fid%3D1VuzxB_aBTCJ5zUIFNQtY_zwqiBU-d_p5)) |  68.33  |  52.25  |
 
  
 #### Visualizations
