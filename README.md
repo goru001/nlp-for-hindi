@@ -49,6 +49,8 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 | BBC Hindi Dataset |  79.79  |  73.01  |
 | Hindi Movie Reviews Dataset (with [augmented data](https://medium.com/r/?url=https%3A%2F%2Fdrive.google.com%2Fopen%3Fid%3D1VuzxB_aBTCJ5zUIFNQtY_zwqiBU-d_p5)) |  68.33  |  52.25  |
 
+Checkout [this blog-post](https://medium.com/@giganticgemmic/data-augmentation-transfer-learning-in-nlp-in-low-resource-settings-de0f5d8459e3)
+where effect of Data Augmentation on Classification Metrics of Hindi Movie Reviews Dataset has been discussed. 
  
 #### Visualizations
  
