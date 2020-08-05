@@ -21,12 +21,15 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 
 
 #### Open Source Datasets
-1. [BBC Hindi News Dataset](https://github.com/NirantK/hindi2vec/releases/tag/bbc-hindi-v0.1)
+1. [BBC News Articles](https://github.com/ai4bharat-indicnlp/indicnlp_corpus#publicly-available-classification-datasets) : Sentiment analysis corpus for Hindi documents extracted from BBC news website.
 
+2. [IIT Patna Product Reviews](https://github.com/ai4bharat-indicnlp/indicnlp_corpus#publicly-available-classification-datasets) : Sentiment analysis corpus for product reviews posted in Hindi.
+
+3. [IIT Patna Movie Reviews](https://github.com/ai4bharat-indicnlp/indicnlp_corpus#publicly-available-classification-datasets) : Sentiment analysis corpus for movie reviews posted in Hindi.
 
 ## Results
 
-#### Language Model Perplexity
+#### Language Model Perplexity (on validation set)
 
 | Architecture/Dataset | Hindi Wikipedia Articles - 172k | Hindi Wikipedia Articles - 55k |
 |:--------:|:----:|:----:|
@@ -35,33 +38,53 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 
 **Note**: [Nirant](https://github.com/NirantK) has done previous [SOTA work with
  Hindi Language Model](https://github.com/NirantK/hindi2vec) and achieved perplexity of ~46.
-  The scores above aren't directly comparable with his score because his train and test set
-   were different and [test set isn't available for reproducibility](https://github.com/NirantK/hindi2vec/issues/1)
+  The scores above aren't directly comparable with his score because his train and validation set
+   were different and [they aren't available for reproducibility](https://github.com/NirantK/hindi2vec/issues/1)
  
 
 #### Classification Metrics
 
 ##### ULMFiT
 
-| Dataset | Accuracy | Kappa Score |
-|:--------:|:----:|:----:|
-| Hindi Movie Reviews Dataset |  62.22  |  43.13  |
-| BBC Hindi Dataset |  79.79  |  73.01  |
-| Hindi Movie Reviews Dataset (with [augmented data](https://medium.com/r/?url=https%3A%2F%2Fdrive.google.com%2Fopen%3Fid%3D1VuzxB_aBTCJ5zUIFNQtY_zwqiBU-d_p5)) |  68.33  |  52.25  |
-
-Checkout [this blog-post](https://medium.com/@giganticgemmic/data-augmentation-transfer-learning-in-nlp-in-low-resource-settings-de0f5d8459e3)
-where effect of Data Augmentation on Classification Metrics of Hindi Movie Reviews Dataset has been discussed. 
+| Dataset | Accuracy | MCC | Notebook to Reproduce results |
+|:--------:|:----:|:----:|:----:|
+| BBC News Articles |  78.75  |  71.61  | [Link](https://github.com/goru001/nlp-for-hindi/blob/master/classification-benchmarks/Hindi_Classification_Model_BBC_Articles.ipynb) |
+| IIT Patna Movie Reviews | 57.74 | 37.23 | [Link](https://github.com/goru001/nlp-for-hindi/blob/master/classification-benchmarks/Hindi_Classification_Model_IITP%2BMovie.ipynb) |
+| IIT Patna Product Reviews |  75.71  |  59.76  | [Link](https://github.com/goru001/nlp-for-hindi/blob/master/classification-benchmarks/Hindi_Classification_Model_IITP_Product.ipynb) |
  
 #### Visualizations
  
-##### Embedding Space
+##### Word Embeddings
 
 | Architecture | Visualization |
 |:--------:|:----:|
 | ULMFiT | [Embeddings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-hindi/master/language-model/embedding_projector_config_30k.json) |
 | TransformerXL | [Embeddings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-hindi/master/language-model/embedding_projector_config_transformerxl.json)  |
 
-##### Sentence Encodings
+
+#### Results of using Transfer Learning + Data Augmentation from iNLTK
+
+##### On using complete training set (with Transfer learning)
+
+| Dataset | Dataset size (train, valid, test) | Accuracy | MCC | Notebook to Reproduce results |
+|:--------:|:----:|:----:|:----:|:----:|
+| IIT Patna Movie Reviews | (2480, 310, 310) | 57.74 | 37.23 | [Link](https://github.com/goru001/nlp-for-hindi/blob/master/classification-benchmarks/Hindi_Classification_Model_IITP%2BMovie.ipynb) |
+ 
+
+##### On using 20% of training set (with Transfer learning)
+
+| Dataset | Dataset size (train, valid, test) | Accuracy | MCC | Notebook to Reproduce results |
+|:--------:|:----:|:----:|:----:|:----:|
+| IIT Patna Movie Reviews | (496, 310, 310) | 47.74 | 20.50 | [Link](https://github.com/goru001/nlp-for-hindi/blob/master/classification-benchmarks/Hindi_Classification_Model_IITP%2BMovie_without_Data_Aug.ipynb) |
+ 
+##### On using 20% of training set (with Transfer learning + Data Augmentation)
+
+| Dataset | Dataset size (train, valid, test) | Accuracy | MCC | Notebook to Reproduce results |
+|:--------:|:----:|:----:|:----:|:----:|
+| IIT Patna Movie Reviews | (496, 310, 310) | 56.13 | 34.39 | [Link](https://github.com/goru001/nlp-for-hindi/blob/master/classification-benchmarks/Hindi_Classification_Model_IITP%2BMovie_with_Data_Aug.ipynb) |
+
+
+##### Sentence Embeddings
 
 | Architecture | Visualization |
 |:--------:|:----:|
@@ -74,12 +97,6 @@ where effect of Data Augmentation on Classification Metrics of Hindi Movie Revie
 Download pretrained Language Models of ULMFiT, TransformerXL trained on
  [Hindi Wikipedia Articles - 172k and Hindi Wikipedia Articles - 55k](https://github.com/goru001/nlp-for-hindi#dataset)
   from [here](https://drive.google.com/open?id=1_8l5HFHHm4cboA-tkGbn3i6sfOWLmGyC)
-
-#### Classifier
-
-Download Movie Review classifier from [here](https://drive.google.com/open?id=1namfgTvH72Hgq3kPD8F43tOgLUEmG2zf)
-
-Download BBC News classifier from [here](https://drive.google.com/open?id=1namfgTvH72Hgq3kPD8F43tOgLUEmG2zf)
 
 #### Tokenizer
 
