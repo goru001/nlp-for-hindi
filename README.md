@@ -29,7 +29,7 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 
 ## Results
 
-#### Language Model Perplexity (on validation set)
+### Language Model Perplexity (on validation set)
 
 | Architecture/Dataset | Hindi Wikipedia Articles - 172k | Hindi Wikipedia Articles - 55k |
 |:--------:|:----:|:----:|
@@ -42,7 +42,7 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
    were different and [they aren't available for reproducibility](https://github.com/NirantK/hindi2vec/issues/1)
  
 
-#### Classification Metrics
+### Classification Metrics
 
 ##### ULMFiT
 
@@ -52,7 +52,9 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 | IIT Patna Movie Reviews | 57.74 | 37.23 | [Link](https://github.com/goru001/nlp-for-hindi/blob/master/classification-benchmarks/Hindi_Classification_Model_IITP%2BMovie.ipynb) |
 | IIT Patna Product Reviews |  75.71  |  59.76  | [Link](https://github.com/goru001/nlp-for-hindi/blob/master/classification-benchmarks/Hindi_Classification_Model_IITP_Product.ipynb) |
  
-#### Visualizations
+ 
+
+### Visualizations
  
 ##### Word Embeddings
 
@@ -61,8 +63,16 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 | ULMFiT | [Embeddings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-hindi/master/language-model/embedding_projector_config_30k.json) |
 | TransformerXL | [Embeddings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-hindi/master/language-model/embedding_projector_config_transformerxl.json)  |
 
+##### Sentence Embeddings
 
-#### Results of using Transfer Learning + Data Augmentation from iNLTK
+| Architecture | Visualization |
+|:--------:|:----:|
+| ULMFiT | [Encodings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-hindi/master/language-model/sentence_encodings/encoding_projector_config.json) |
+
+
+
+
+### Results of using Transfer Learning + Data Augmentation from iNLTK
 
 ##### On using complete training set (with Transfer learning)
 
@@ -82,13 +92,6 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 | Dataset | Dataset size (train, valid, test) | Accuracy | MCC | Notebook to Reproduce results |
 |:--------:|:----:|:----:|:----:|:----:|
 | IIT Patna Movie Reviews | (496, 310, 310) | 56.13 | 34.39 | [Link](https://github.com/goru001/nlp-for-hindi/blob/master/classification-benchmarks/Hindi_Classification_Model_IITP%2BMovie_with_Data_Aug.ipynb) |
-
-
-##### Sentence Embeddings
-
-| Architecture | Visualization |
-|:--------:|:----:|
-| ULMFiT | [Encodings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-hindi/master/language-model/sentence_encodings/encoding_projector_config.json) |
 
 
 ## Pretrained Models
